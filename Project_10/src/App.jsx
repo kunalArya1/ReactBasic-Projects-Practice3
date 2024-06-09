@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import MeanMarks from "./Component/MeanMarks";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <MeanMarks />
+    </div>
+  );
+};
 
-export default App
+export default App;
